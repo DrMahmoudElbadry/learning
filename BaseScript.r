@@ -73,10 +73,5 @@ install.packages("mirt")
 
 c(1,,1,2,2,3)
 
-
-
-
-
-
 df1<- as.data.frame(df1)
 save.image("mydata.RData")
