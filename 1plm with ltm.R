@@ -16,7 +16,7 @@ write.xlsx(dfcoef, "dfcoef.xlsx", row.names = T)
 ####################################################
 ##Person latent trait, or ability score estimation##
 ####################################################
-factor.scores(model_1plm, method = "EAP", resp.patterns = data_1plm)
+factor.scores(model_1plm, method = "EAP", resp.patterns = data_1plm[,-5])
 
 ############
 ##ICC plot##
