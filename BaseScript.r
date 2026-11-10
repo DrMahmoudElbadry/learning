@@ -1,3 +1,6 @@
+1+1
+2^3
+sqrt(16)
 c(12,14,16,18,20,22,24,26,28,30)
 "Hello, World!"
 c("apple", "banana", "cherry","mah")
